@@ -130,3 +130,7 @@ input {
 footer .icon-inner {
     background: red;
 }
+
+h1 {
+    color: black;
+}
