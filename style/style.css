@@ -1,0 +1,124 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, button, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+img, object, embed {
+    vertical-align: bottom;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+a * {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+* {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #98ae7c;
+    border-top: 13px solid #fff;
+    height: 100%;
+    border-bottom: 16px solid #fff;
+}
+
+.heder-logo {
+    display: flex;
+    margin: 12px 0 0 207px;
+}
+
+.main {
+    background-color: #e1eece;
+}
+
+.main .container {
+    margin: auto;
+    max-width: 975px;
+    display: block;
+}
+
+.main .title {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #ebc738;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.main .text {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 25px 30px 10px 20px;
+}
+
+.main .text-1 {
+    padding-bottom: 30px;
+}
+
+.main .back-g {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    border-top: 3px solid #bbdb8c;
+    height: 255px;
+    background-color: #323232;
+    text-align: center;
+    padding: 104px 0 0 87px;
+}
+
+.icon {
+    margin-right: 25px; 
+}
