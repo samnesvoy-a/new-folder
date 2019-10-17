@@ -126,3 +126,7 @@ input {
 .text2 {
     color: red;
 }
+
+footer .icon-inner {
+    background: red;
+}
